@@ -3,13 +3,13 @@
     "type": "vcs",
     "description": "",
     "keywords": ["dotpay", "tomasbro"],
-    "homepage": "http://github.com/TomasBro/DotpayBundle",
+    "homepage": "http://github.com/tomasbro/dotpay-bundle",
     "license": "MIT",
 
     "authors": [
         {
             "name": "Tomasz Brodziński",
-            "homepage": "http://github.com/TomasBro"
+            "homepage": "http://github.com/tomasbro"
         }
     ],
 
