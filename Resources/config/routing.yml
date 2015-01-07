@@ -1,0 +1,8 @@
+tomasbro_dotpay_callback:
+    path:     /dotpay/callback
+    defaults: { _controller: TomasbroDotpayBundle:Dotpay:callback }
+    methods: [POST]
+
+tomasbro_dotpay_payment:
+    path:     /dotpay/payment
+    defaults: { _controller: TomasbroDotpayBundle:Dotpay:payment }

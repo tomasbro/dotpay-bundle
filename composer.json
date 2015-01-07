@@ -1,0 +1,21 @@
+{
+    "name": "tomasbro/dotpay-bundle",
+    "type": "vcs",
+    "description": "",
+    "keywords": ["dotpay", "tomasbro"],
+    "homepage": "http://github.com/TomasBro/DotpayBundle",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Tomasz Brodziński",
+            "homepage": "http://github.com/TomasBro"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "Tomasbro\\DotpayBundle": ""
+        }
+    }
+}

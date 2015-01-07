@@ -1,0 +1,10 @@
+services:
+    tomasbro_dotpay.md5validator:
+        class: Tomasbro\DotpayBundle\Validator\Constraints\DotpayMd5Validator
+        tags:
+            - { name: validator.constraint_validator, alias: tomasbro_dotpay_md5validator }
+        arguments: [%tomasbro_dotpay.id%, %tomasbro_dotpay.pin%]
+        
+    tomasbro_dotpay.payment_form:
+        class: Tomasbro\DotpayBundle\Form\Type\PaymentFormType
+        arguments: [%tomasbro_dotpay.payment.available_languages%, %tomasbro_dotpay.payment.available_currencies%]
